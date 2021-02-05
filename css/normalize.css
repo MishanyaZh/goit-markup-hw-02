@@ -16,8 +16,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: 'Open Sans', sans-serif;
-  /* font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; 1 */
+  font-family: 'Open Sans', sans-serif; /* font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; 1 */
   font-size: 1em; /* 2 */
 }
 
