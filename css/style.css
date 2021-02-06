@@ -49,6 +49,10 @@ body {
   color: var(--accent-color);
 }
 
+/* .nav-col:active {
+  color: red;
+} */
+
 .nav-cont {
   font-weight: 500;
   font-size: 14px;
@@ -86,6 +90,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   border: none;
+  cursor: pointer;
 }
 
 .button-geroy:hover,
