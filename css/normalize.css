@@ -175,6 +175,19 @@ Forms
 2. Remove the margin in Firefox and Safari.
 */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 button,
 input,
 optgroup,
@@ -197,7 +210,6 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
